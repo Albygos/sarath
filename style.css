@@ -1467,3 +1467,87 @@ html, body { overflow-x: hidden; }
   opacity: 1;
   transform: translateY(0) scale(1);
 }
+/* =========================================================
+   FOUNDER / CO-FOUNDER CARD
+   RESPONSIVE IMAGE + NAME + DESIGNATION
+   ========================================================= */
+
+/* =========================
+   DESKTOP
+   ========================= */
+@media screen and (min-width: 769px) {
+
+  /* Profile image */
+  #testimonials_section #__46 .founder-slide #Image {
+    width: 230px !important;
+    height: 230px !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+  }
+
+  #testimonials_section #__46 .founder-slide #Image img,
+  #testimonials_section #__46 .founder-slide #__29 {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transform: none !important;
+  }
+
+  /* Founder / Co-Founder name */
+  #testimonials_section #__46 .founder-slide #Heading_2_Olly_Schroeder {
+    font-size: 22px !important;
+    line-height: 30px !important;
+    font-weight: 600 !important;
+  }
+
+  /* Founder / Co-Founder designation */
+  #testimonials_section #__46 .founder-slide #Heading_2_Olly_Schroeder_0 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+    font-weight: 500 !important;
+  }
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+@media screen and (max-width: 768px) {
+
+  /* Keep the card responsive */
+  #testimonials_section,
+  #testimonials_section #__46 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Profile image */
+  #testimonials_section #__46 .founder-slide #Image {
+    width: 220px !important;
+    height: 220px !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+  }
+
+  #testimonials_section #__46 .founder-slide #Image img,
+  #testimonials_section #__46 .founder-slide #__29 {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transform: none !important;
+  }
+
+  /* Founder / Co-Founder name */
+  #testimonials_section #__46 .founder-slide #Heading_2_Olly_Schroeder {
+    font-size: 22px !important;
+    line-height: 30px !important;
+    font-weight: 600 !important;
+  }
+
+  /* Founder / Co-Founder designation */
+  #testimonials_section #__46 .founder-slide #Heading_2_Olly_Schroeder_0 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+    font-weight: 500 !important;
+  }
+}

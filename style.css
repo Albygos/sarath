@@ -1467,3 +1467,186 @@ html, body { overflow-x: hidden; }
   opacity: 1;
   transform: translateY(0) scale(1);
 }
+/* =========================================================
+   FOUNDER / CO-FOUNDER — LARGE PROFILE IMAGE FIX
+   Desktop + Mobile
+   ========================================================= */
+
+/* Founder card canvas */
+#testimonials_section #__46 {
+    position: absolute !important;
+    overflow: hidden !important;
+}
+
+/* Founder / Co-Founder image wrapper */
+#testimonials_section #__46 #Image {
+    position: absolute !important;
+
+    /* LARGE PROFILE CANVAS */
+    width: 230px !important;
+    height: 230px !important;
+
+    /* Keep image completely inside the card */
+    top: 17px !important;
+    left: 28px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border-radius: 20px !important;
+    overflow: hidden !important;
+
+    /* Cancel the old generated positioning */
+    inset: auto !important;
+
+    transform: none !important;
+    transform-origin: center center !important;
+
+    z-index: 5 !important;
+}
+
+/* Actual founder / co-founder image */
+#testimonials_section #__46 #Image > * {
+    width: 100% !important;
+    height: 100% !important;
+
+    display: block !important;
+
+    object-fit: cover !important;
+    object-position: center center !important;
+
+    transform: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Make sure generated image element cannot shrink */
+#testimonials_section #__46 #Image img,
+#testimonials_section #__46 #Image picture,
+#testimonials_section #__46 #Image picture img {
+    width: 100% !important;
+    height: 100% !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    min-width: 100% !important;
+    min-height: 100% !important;
+
+    object-fit: cover !important;
+    object-position: center center !important;
+}
+
+/* =========================================================
+   DESKTOP
+   ========================================================= */
+
+@media screen and (min-width: 769px) {
+
+    #testimonials_section #__46 {
+        width: 906.2px !important;
+        height: 264px !important;
+        left: -99.1px !important;
+        top: 0 !important;
+        overflow: hidden !important;
+    }
+
+    #testimonials_section #__46 #Image {
+        width: 230px !important;
+        height: 230px !important;
+
+        top: 17px !important;
+        left: 28px !important;
+
+        border-radius: 20px !important;
+    }
+
+    /* Keep founder/co-founder text clear of the larger image */
+    #testimonials_section #__46 #_9979_559 {
+        left: 285px !important;
+        width: 365px !important;
+        z-index: 10 !important;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media screen and (max-width: 768px) {
+
+    #testimonials_section {
+        overflow: hidden !important;
+    }
+
+    #testimonials_section #__46 {
+        width: 100% !important;
+        height: 100% !important;
+
+        top: 0 !important;
+        left: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+    #testimonials_section #__46 #Image {
+        width: 220px !important;
+        height: 220px !important;
+
+        top: 10px !important;
+        left: 15px !important;
+
+        border-radius: 20px !important;
+    }
+
+    #testimonials_section #__46 #_9979_559 {
+        left: 250px !important;
+        width: 190px !important;
+        z-index: 10 !important;
+    }
+}
+
+
+/* =========================================================
+   SMALL PHONES — KEEP IMAGE LARGE BUT FIT THE CANVAS
+   ========================================================= */
+
+@media screen and (max-width: 420px) {
+
+    #testimonials_section #__46 #Image {
+        width: 205px !important;
+        height: 205px !important;
+
+        top: 12px !important;
+        left: 12px !important;
+
+        border-radius: 18px !important;
+    }
+
+    #testimonials_section #__46 #_9979_559 {
+        left: 232px !important;
+        width: 175px !important;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   ========================================================= */
+
+@media screen and (max-width: 360px) {
+
+    #testimonials_section #__46 #Image {
+        width: 190px !important;
+        height: 190px !important;
+
+        top: 12px !important;
+        left: 10px !important;
+    }
+
+    #testimonials_section #__46 #_9979_559 {
+        left: 214px !important;
+        width: 165px !important;
+    }
+}

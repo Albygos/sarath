@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Works Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+  <!-- Minimal Header -->
+  <header class="minimal-header">
+    <a href="responsive-merged-website-fixed.html" class="back-link">
+      &#8592; Back
+    </a>
+    <span class="gallery-title-minimal">Gallery</span>
+  </header>
+
+  <!-- Pure Image Grid -->
+  <main class="gallery-container">
+    <div class="minimal-grid" id="minimalGrid">
+      <div class="grid-item"><img src="gallery-images/alcove_img_1.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_2.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_3.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_5.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_6.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_7.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_8.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_9.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_10.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_11.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_12.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_13.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_14.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_15.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_18.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_19.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_22.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_23.jpg" alt="" loading="lazy"></div>
+      <div class="grid-item"><img src="gallery-images/alcove_img_24.jpg" alt="" loading="lazy"></div>
+    </div>
+  </main>
+
+  <!-- Clean Minimal Lightbox -->
+  <div class="minimal-lightbox" id="minimalLightbox" role="dialog" aria-modal="true">
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">&#10094;</button>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">&#10095;</button>
+    <div class="lightbox-image-wrapper">
+      <img id="lbImg" src="" alt="">
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

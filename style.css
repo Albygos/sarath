@@ -1467,6 +1467,41 @@ html, body { overflow-x: hidden; }
   opacity: 1;
   transform: translateY(0) scale(1);
 }
+/* =========================================================
+   FOUNDER / CO-FOUNDER CARD — SIZE OVERRIDES
+   ========================================================= */
+
+/* Make the profile image larger */
+#testimonials_section #__46 .founder-slide #Image {
+    width: 220px !important;
+    height: 220px !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+}
+
+/* Make the actual photo fill the larger image */
+#testimonials_section #__46 .founder-slide #Image img,
+#testimonials_section #__46 .founder-slide #__29 {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transform: none !important;
+}
+
+/* Founder / Co-Founder NAME */
+#testimonials_section #__46 .founder-slide #Heading_2_Olly_Schroeder {
+    font-size: 22px !important;
+    line-height: 30px !important;
+    font-weight: 600 !important;
+}
+
+/* Founder / Co-Founder DESIGNATION */
+#testimonials_section #__46 .founder-slide #Heading_2_Olly_Schroeder_0 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+    font-weight: 500 !important;
+}
+
 
 
 
